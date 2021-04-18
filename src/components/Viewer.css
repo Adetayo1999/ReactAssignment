@@ -1,0 +1,26 @@
+.viewer{
+   
+    background-color: #2196f3;
+    padding:0.6rem 1rem;
+    border-radius: 16px;
+    color:#fff;
+      box-shadow: 3px 4px 4px rgba(0,0,0,0.23);  
+}
+.viewer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin:auto;
+}
+.viewer  .viewer__left , .viewer__right{
+   padding: 0.4rem 0.7rem;
+ 
+}
+.viewer__left h4 , .viewer__right h4{
+    margin-top: 6px;
+}
+.viewer__left p , .viewer__right p{
+    font-size: small;
+    margin-top: 8px;
+}

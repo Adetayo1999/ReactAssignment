@@ -1,0 +1,20 @@
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor:pointer;
+    color:#86a1b8;
+}
+.link:nth-of-type(1){
+    color:#2196f3;
+}
+.link p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+
+}
+.link:nth-of-type(1) p{
+    font-weight: bold;
+}
