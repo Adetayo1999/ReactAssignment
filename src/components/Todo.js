@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Todo.css";
-function Todo({Icon , text , tag}) {
+function Todo({date , description , price}) {
     return (
         <div  className="todo">
-            <Icon />
-          <p>{text}</p>
-    <p>{tag}</p>
+           <p>{date}</p>
+    <p>{description}</p>
+    <p>{price}</p>
         </div>
     )
 }

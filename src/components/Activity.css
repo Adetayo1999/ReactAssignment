@@ -1,12 +1,16 @@
 
 .activity{
     background-color: #ddd;
-    height:250px;
-    overflow:scroll;
-    overflow-x: hidden;
+    height:200px;
+    
 }
 .activity__top{
     padding:0.5rem 0.8rem;
     color:#fff;
     font-weight: bold;
+}
+.activity__bottom{
+    background-color: #eee;
+    border:1px solid rgba(0,0,0,0.35);
+    margin: 5px;
 }

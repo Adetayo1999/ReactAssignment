@@ -1,7 +1,7 @@
 import React from 'react'
 import Todo from './Todo';
 import "./Activity.css";
-import DescriptionIcon from "@material-ui/icons/Description";
+
 function Activity() {
     return (
         <div className="activity">
@@ -9,14 +9,10 @@ function Activity() {
                <p>Recent Activity</p>
             </div>
            <div className="activity__bottom">
-               <Todo Icon={DescriptionIcon} text="HIV Blood Draw Test" tag="A100" />
-               <Todo Icon={DescriptionIcon} text="HIV Blood Draw Test" tag="A100" />
-               <Todo Icon={DescriptionIcon} text="HIV Blood Draw Test" tag="A100" />
-               <Todo Icon={DescriptionIcon} text="HIV Blood Draw Test" tag="A100" />
-               <Todo Icon={DescriptionIcon} text="HIV Blood Draw Test" tag="A100" />
-               <Todo Icon={DescriptionIcon} text="HIV Blood Draw Test" tag="A100" />
-               <Todo Icon={DescriptionIcon} text="HIV Blood Draw Test" tag="A100" />
-               <Todo Icon={DescriptionIcon} text="HIV Blood Draw Test" tag="A100" />
+             <Todo date ="Date" description="Description" price="Amount"/>
+             <Todo date="1/1/21" description="Sent" price="N100.00"/>
+             <Todo date="2/2/21" description="Received" price="N200.00"/>
+             <Todo  date="3/3/21" description="Sent" price="N300.00"/>
            </div>
         </div>
     )

@@ -5,11 +5,11 @@
     align-items: center;
     text-decoration: none;
     /* cursor:pointer; */
-    color:#86a1b8;
+    color:rgba(250,0,0,0.4);
     transition: all 0.3s ease-in;
 }
 .link.active{
-    color:#8ec6f3;
+    color:rgba(250,0,0,0.9);
 }
 .link p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
