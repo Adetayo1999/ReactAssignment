@@ -1,26 +1,20 @@
 .viewer{
    
-    background-color: #2196f3;
+    background-color: #eee;
     padding:0.6rem 1rem;
     border-radius: 16px;
-    color:#fff;
-      box-shadow: 3px 4px 4px rgba(0,0,0,0.23);  
-}
-.viewer .container{
+    color:black;
+    box-shadow: 3px 4px 4px rgba(0,0,0,0.23);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width:80%;
-    margin:auto;
+    flex-direction: column;  
+    border: 1px solid rgba(0,0,0,0.23);
 }
-.viewer  .viewer__left , .viewer__right{
-   padding: 0.4rem 0.7rem;
- 
-}
-.viewer__left h4 , .viewer__right h4{
-    margin-top: 6px;
-}
-.viewer__left p , .viewer__right p{
-    font-size: small;
-    margin-top: 8px;
+
+
+.viewer h3{
+    padding:0.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
 }

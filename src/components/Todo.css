@@ -3,9 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(0,0,0,0.15);
-    background-color: #fff;
-    padding: 0.4rem;
+   
+    padding: 0.5rem;
     cursor: pointer;
 }
 .todo:hover{
@@ -16,10 +15,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.todo p:nth-of-type(1){
+/* .todo p:nth-of-type(1){
     font-weight: 400;
     font-size: 14px;
-}
-.todo .MuiSvgIcon-root{
-    color:rgb(57, 141, 57);
-}
+} */

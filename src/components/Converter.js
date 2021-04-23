@@ -10,8 +10,8 @@ function Converter() {
              <form>
                  <div className="form__group">
                      <select >
-                         <option value="">...</option>
-                         <option value="NGN">NGN</option>
+                        
+                         <option value="NGN">TOKEN</option>
                      </select>
                      <input type="text" name="" id="" placeholder="0.00000001"/>
                  </div>
